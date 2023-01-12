@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  font-family: "Chivo", sans-serif;
 }
 #container {
   border: 1px solid wheat;
@@ -19,4 +22,44 @@ body {
   background-size: 888px 640px;
   background-position-x: right;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+main {
+  border: 1px solid white;
+  width: 723px;
+  height: 509px;
+  color: wheat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #121725;
+  padding-top: 90px;
+}
+h1 {
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 62px;
+  text-transform: uppercase;
+  color: #54e6af;
+}
+h1 span {
+  color: #ffffff;
+}
+p {
+  padding-right: 278px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #c2cbe5;
+}
+
+.sns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 40px;
 }
