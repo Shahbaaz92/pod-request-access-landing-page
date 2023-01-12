@@ -158,48 +158,93 @@ button:active {
     height: 56px;
   }
 }
-@media (max-width: 786px) {
+@media (max-width: 800px) {
   body {
     height: 100vh;
-  }
-  .container {
-    padding: 60px 24px;
     justify-content: center;
     align-items: center;
+    text-align: center;
+  }
+  #container {
+    /* margin: 20px; */
+    padding-top: 100px;
     width: 375px;
     height: 667px;
-    background-image: linear-gradient(
+    background: linear-gradient(
         to bottom,
-        rgba(245, 246, 252, 0.52),
-        rgba(0, 0, 0, 0.73)
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
       ),
       url("assets/mobile/image-host.jpg");
+    background-size: 375px 667px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 10px;
   }
+
   main {
+    background-color: transparent;
     width: 327px;
     height: 398px;
+    /* padding-top: 50px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    text-align: center;
+    row-gap: 10px;
+    position: relative;
   }
   h1 {
     font-size: 26px;
     line-height: 38px;
-
-    margin-bottom: 16px;
+    /* text-align: center; */
   }
   .hero-text {
     font-size: 15px;
     line-height: 25px;
-    margin-bottom: 30px;
-    margin-right: 0;
-  }
-  .sns {
-    column-gap: 16px;
-    height: 16px;
+    padding: 0;
+    margin-bottom: 100px;
   }
   form {
+    width: 327px;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    padding-bottom: 30px;
+  }
+  input {
+    width: 327px;
+    border-radius: 28px;
+
+    margin: 0;
+    text-align: left;
+    padding: 5px 0;
+    padding-left: 30px;
+  }
+  button {
+    width: 327px;
+    padding: 5px;
+  }
+  .warning {
+    align-self: flex-start;
+    margin-top: -70px;
+  }
+  .sns {
+    width: 327px;
+    column-gap: 10px;
+    height: 17px;
+    position: absolute;
+    top: 270px;
+  }
+  .sns img {
+    height: 15px;
+    width: auto;
   }
 }
