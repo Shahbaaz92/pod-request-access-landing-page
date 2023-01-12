@@ -120,12 +120,14 @@ button:active {
 
 @media (max-width: 1440px) {
   body {
+    margin: 0 20px;
+    width: 95vw;
     height: 1024px;
     justify-content: center;
     align-items: flex-start;
   }
   #container {
-    margin: 0 20px;
+    margin: 0;
     padding-top: 50px;
     width: 768px;
     height: 767px;
@@ -158,7 +160,7 @@ button:active {
     height: 56px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   body {
     height: 100vh;
     justify-content: center;
@@ -172,8 +174,8 @@ button:active {
     height: 667px;
     background: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.7),
-        rgba(0, 0, 0, 0.7)
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
       ),
       url("assets/mobile/image-host.jpg");
     background-size: 375px 667px;
