@@ -121,7 +121,7 @@ button:active {
 @media (max-width: 1440px) {
   body {
     /* margin: 0 20px; */
-    width: 95vw;
+    width: 100vw;
     height: 1024px;
     justify-content: center;
     align-items: flex-start;
